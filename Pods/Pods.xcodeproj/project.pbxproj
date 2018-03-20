@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E9FFA97FB15CB8CEA496C0F4B3A5D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		483B26D6F0B59F246321F72821644CF2 /* TMDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 357A4081AEF9E359659287099E49EDA6 /* TMDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		551CEB42907CA57C5797624244149932 /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 29893AB29CF26837105CB8769659980B /* TMCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		634F2FC6E16F245C397A263CFA19D730 /* TMMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5F305A4678098B0733A59934BA6380 /* TMMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67CC031115C66EFA16676BADB5D9FD83 /* TMCacheBackgroundTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEBA9AB668F4BC44E11F63313A27612 /* TMCacheBackgroundTaskManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F87BB27B5AF29C338A2B0FCEC0D171 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B5676E63C6EB3FED776BF85FB16DACB7 /* Pods-AlarmClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC5019FCDFA40A5C341B5363B041AF /* Pods-AlarmClock-dummy.m */; };
+		BB66620C2305733CA1CA0034F386DD60 /* TMCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D87BBC0DE423E3718170FA82C1B17C1D /* TMCache-dummy.m */; };
+		C272A5CCE06E4D73EB4897FDF66168D6 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDEBAA93CBE90DE892FF636BD98E9D4 /* TMMemoryCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EAEDDE17946A7C793AABA87B34A5FD76 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACED1F0B6299BEB63FDF746F4CAF10 /* TMDiskCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F53ABFF8DD325DB0840686FFAD7EE40A /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D762B37F5863E653105814DE284609A0 /* TMCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10976415B7DE0A83194F79429535212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737CA45944B216D6B7FA4332940DDEB5;
+			remoteInfo = TMCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0246F4420E63AEC306F6F82FA5E9B280 /* libPods-AlarmClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AlarmClock.a"; path = "libPods-AlarmClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29893AB29CF26837105CB8769659980B /* TMCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMCache.h; path = TMCache/TMCache.h; sourceTree = "<group>"; };
+		357A4081AEF9E359659287099E49EDA6 /* TMDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMDiskCache.h; path = TMCache/TMDiskCache.h; sourceTree = "<group>"; };
+		45CD03353C2C8EBEB2559CF164E7F1CA /* Pods-AlarmClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmClock-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C2F1D29C0A1BBAB7490DA1850CBF040 /* Pods-AlarmClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmClock.release.xcconfig"; sourceTree = "<group>"; };
+		4E7AF2A4323206BBB8508A5EB31528FD /* TMCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TMCache.xcconfig; sourceTree = "<group>"; };
+		514009C3AD45E0820B4B2BACF6DF96CB /* Pods-AlarmClock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmClock-frameworks.sh"; sourceTree = "<group>"; };
+		6DDEBAA93CBE90DE892FF636BD98E9D4 /* TMMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMemoryCache.m; path = TMCache/TMMemoryCache.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D5F305A4678098B0733A59934BA6380 /* TMMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMemoryCache.h; path = TMCache/TMMemoryCache.h; sourceTree = "<group>"; };
+		A7C1131136F6F55D9D919FDA03436431 /* Pods-AlarmClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmClock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B69103922C9A51CAA20DCD693A0959A6 /* Pods-AlarmClock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmClock-resources.sh"; sourceTree = "<group>"; };
+		C84BB3429060E6A82561093CFA42749D /* libTMCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTMCache.a; path = libTMCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ACED1F0B6299BEB63FDF746F4CAF10 /* TMDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMDiskCache.m; path = TMCache/TMDiskCache.m; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD58D2BC92F40AD3A106BC3C41D64A10 /* Pods-AlarmClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmClock.debug.xcconfig"; sourceTree = "<group>"; };
+		D14CF46E21628BC758EC40FD74341FB6 /* TMCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TMCache-prefix.pch"; sourceTree = "<group>"; };
+		D762B37F5863E653105814DE284609A0 /* TMCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMCache.m; path = TMCache/TMCache.m; sourceTree = "<group>"; };
+		D87BBC0DE423E3718170FA82C1B17C1D /* TMCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TMCache-dummy.m"; sourceTree = "<group>"; };
+		DFEBA9AB668F4BC44E11F63313A27612 /* TMCacheBackgroundTaskManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMCacheBackgroundTaskManager.h; path = TMCache/TMCacheBackgroundTaskManager.h; sourceTree = "<group>"; };
+		E5EC5019FCDFA40A5C341B5363B041AF /* Pods-AlarmClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmClock-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		178F51A7C9E8B53F2C6302611741D6C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F87BB27B5AF29C338A2B0FCEC0D171 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951D4991D21A981B253133B2DB2E6218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E9FFA97FB15CB8CEA496C0F4B3A5D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00979735F9A96EA89571295916EBA103 /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				29893AB29CF26837105CB8769659980B /* TMCache.h */,
+				D762B37F5863E653105814DE284609A0 /* TMCache.m */,
+				DFEBA9AB668F4BC44E11F63313A27612 /* TMCacheBackgroundTaskManager.h */,
+				357A4081AEF9E359659287099E49EDA6 /* TMDiskCache.h */,
+				C9ACED1F0B6299BEB63FDF746F4CAF10 /* TMDiskCache.m */,
+				9D5F305A4678098B0733A59934BA6380 /* TMMemoryCache.h */,
+				6DDEBAA93CBE90DE892FF636BD98E9D4 /* TMMemoryCache.m */,
+				CDD3A70E9BD3F2163CCB96601FDCBA2B /* Support Files */,
+			);
+			name = TMCache;
+			path = TMCache;
+			sourceTree = "<group>";
+		};
+		39E86B0BE386DA41D8D0DA1E7DE8E4F0 /* Pods-AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				A7C1131136F6F55D9D919FDA03436431 /* Pods-AlarmClock-acknowledgements.markdown */,
+				45CD03353C2C8EBEB2559CF164E7F1CA /* Pods-AlarmClock-acknowledgements.plist */,
+				E5EC5019FCDFA40A5C341B5363B041AF /* Pods-AlarmClock-dummy.m */,
+				514009C3AD45E0820B4B2BACF6DF96CB /* Pods-AlarmClock-frameworks.sh */,
+				B69103922C9A51CAA20DCD693A0959A6 /* Pods-AlarmClock-resources.sh */,
+				CD58D2BC92F40AD3A106BC3C41D64A10 /* Pods-AlarmClock.debug.xcconfig */,
+				4C2F1D29C0A1BBAB7490DA1850CBF040 /* Pods-AlarmClock.release.xcconfig */,
+			);
+			name = "Pods-AlarmClock";
+			path = "Target Support Files/Pods-AlarmClock";
+			sourceTree = "<group>";
+		};
+		54AFD78ED21D1992343F147941A374E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				39E86B0BE386DA41D8D0DA1E7DE8E4F0 /* Pods-AlarmClock */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ADC4AC44FE991A1F54076D56F9FAE621 /* Pods */,
+				B00F886F53E2480FBCFFE1A8872768B0 /* Products */,
+				54AFD78ED21D1992343F147941A374E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC4AC44FE991A1F54076D56F9FAE621 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00979735F9A96EA89571295916EBA103 /* TMCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B00F886F53E2480FBCFFE1A8872768B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0246F4420E63AEC306F6F82FA5E9B280 /* libPods-AlarmClock.a */,
+				C84BB3429060E6A82561093CFA42749D /* libTMCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDD3A70E9BD3F2163CCB96601FDCBA2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E7AF2A4323206BBB8508A5EB31528FD /* TMCache.xcconfig */,
+				D87BBC0DE423E3718170FA82C1B17C1D /* TMCache-dummy.m */,
+				D14CF46E21628BC758EC40FD74341FB6 /* TMCache-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TMCache";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36B5304CB902A1DEC7B165CAC98BEBE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551CEB42907CA57C5797624244149932 /* TMCache.h in Headers */,
+				67CC031115C66EFA16676BADB5D9FD83 /* TMCacheBackgroundTaskManager.h in Headers */,
+				483B26D6F0B59F246321F72821644CF2 /* TMDiskCache.h in Headers */,
+				634F2FC6E16F245C397A263CFA19D730 /* TMMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D671A48B7574C49E494A6B27B975C6B /* Pods-AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA3A02C4361D2C4678E25C2B9041E62 /* Build configuration list for PBXNativeTarget "Pods-AlarmClock" */;
+			buildPhases = (
+				19BB4A0D0C65FF28EDE4C05286460640 /* Sources */,
+				951D4991D21A981B253133B2DB2E6218 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E6DC3C8F55D79CE4B2A5BFDEDA6C4FD /* PBXTargetDependency */,
+			);
+			name = "Pods-AlarmClock";
+			productName = "Pods-AlarmClock";
+			productReference = 0246F4420E63AEC306F6F82FA5E9B280 /* libPods-AlarmClock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		737CA45944B216D6B7FA4332940DDEB5 /* TMCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2491E514D3EA540946FDFAD8A0CE9ECD /* Build configuration list for PBXNativeTarget "TMCache" */;
+			buildPhases = (
+				B7653A8FB5219018AF08F256A6685658 /* Sources */,
+				178F51A7C9E8B53F2C6302611741D6C1 /* Frameworks */,
+				36B5304CB902A1DEC7B165CAC98BEBE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMCache;
+			productName = TMCache;
+			productReference = C84BB3429060E6A82561093CFA42749D /* libTMCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B00F886F53E2480FBCFFE1A8872768B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D671A48B7574C49E494A6B27B975C6B /* Pods-AlarmClock */,
+				737CA45944B216D6B7FA4332940DDEB5 /* TMCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19BB4A0D0C65FF28EDE4C05286460640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5676E63C6EB3FED776BF85FB16DACB7 /* Pods-AlarmClock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7653A8FB5219018AF08F256A6685658 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB66620C2305733CA1CA0034F386DD60 /* TMCache-dummy.m in Sources */,
+				F53ABFF8DD325DB0840686FFAD7EE40A /* TMCache.m in Sources */,
+				EAEDDE17946A7C793AABA87B34A5FD76 /* TMDiskCache.m in Sources */,
+				C272A5CCE06E4D73EB4897FDF66168D6 /* TMMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E6DC3C8F55D79CE4B2A5BFDEDA6C4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TMCache;
+			target = 737CA45944B216D6B7FA4332940DDEB5 /* TMCache */;
+			targetProxy = F10976415B7DE0A83194F79429535212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A1EDE2A5F455B963C5C8ACAD51F2B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7AF2A4323206BBB8508A5EB31528FD /* TMCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMCache/TMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6B263770DD2661519C3BAE7222AA2F22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7AF2A4323206BBB8508A5EB31528FD /* TMCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TMCache/TMCache-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3A83241D5A1EE33C7CAD13C859DDDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2F1D29C0A1BBAB7490DA1850CBF040 /* Pods-AlarmClock.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C4433164769C219A885720082E05BE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD58D2BC92F40AD3A106BC3C41D64A10 /* Pods-AlarmClock.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2491E514D3EA540946FDFAD8A0CE9ECD /* Build configuration list for PBXNativeTarget "TMCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B263770DD2661519C3BAE7222AA2F22 /* Debug */,
+				4A1EDE2A5F455B963C5C8ACAD51F2B7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA3A02C4361D2C4678E25C2B9041E62 /* Build configuration list for PBXNativeTarget "Pods-AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4433164769C219A885720082E05BE4B /* Debug */,
+				C3A83241D5A1EE33C7CAD13C859DDDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
